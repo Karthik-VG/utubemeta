@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
-from videolist import videolist
-from videotags import videotags
+from src.videolist import videolist
+from src.videotags import videotags
 from flask_cors import cross_origin
 import pandas as pd
 
